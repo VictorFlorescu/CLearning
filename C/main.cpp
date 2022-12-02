@@ -108,12 +108,11 @@ void changes()
 	cout << "- Fixed a bug when using the 'Calculator' app and using 'quit' in command line afterwards," << endl;
 	cout << "  a message pops up saying 'Do you want to continue?' which was executing from the 'Calculator' app" << endl;
 	cout << "================================================" << endl;
-	cout << "Version a7 (last pre-release)\n" << endl;
+	cout << "Upcoming: Version a7 (last pre-release)\n" << endl;
 	cout << "- Remade the menus designs" << endl;
 	cout << "- Console command for launching apps" << endl;
 	cout << "- Working on Updater" << endl;
 	cout << "- A new game" << endl;
-	cout << "- Bug fixes if any exist" << endl;
 	cout << "================================================" << endl;
 	cout << "Press 'M' to return to the main menu!" << endl;
 	cout << "================================================" << endl;

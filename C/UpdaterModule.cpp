@@ -6,7 +6,7 @@
 using namespace std;
 
 	//URL of latest update (for testing is the same version)
-	const wchar_t* sURL = L"https://github.com/VictorFlorescu/CLearning/releases/download/InDev/C.exe";
+	const wchar_t* sURL = L"https://github.com/VictorFlorescu/CLearning/releases/download/InDev-A8/C-A8.exe";
 
 	//Name of the destination file
 	const wchar_t* dFile = L"C-Updated.exe";

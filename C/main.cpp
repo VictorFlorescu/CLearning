@@ -27,6 +27,7 @@ void mainMenu()
 	system("cls");
 	cout << "================================================" << endl;
 	cout << "\t\t    Main Menu" << endl;
+	cout << "\t\t    Version: "<< version << endl;
 	cout << "================================================" << endl;
 	cout << "1. Settings		|Change Settings\n" << endl;
 	cout << "2. Command Line	|Enters the command line\n" << endl;
@@ -53,6 +54,9 @@ void mainMenu()
 		appsMenu();
 		break;
 	case 4:
+		//cout << "Unavailable" << endl;
+		//Sleep(1500);
+		//mainMenu();
 		UpdaterMain();
 		break;
 	case 98:
@@ -103,16 +107,15 @@ void changes()
 	cout << "- Added 'Updater' option in the main menu" << endl;
 	cout << "		- Checks for a newer version and updates if available" << endl;
 	cout << "		- In design" << endl;
-	cout << "		- Estimated availability: Version b1";
+	cout << "		- Estimated availability: Version r1";
 	cout << "- Changed look of 'Changelog'" << endl;
 	cout << "- Fixed a bug when using the 'Calculator' app and using 'quit' in command line afterwards," << endl;
 	cout << "  a message pops up saying 'Do you want to continue?' which was executing from the 'Calculator' app" << endl;
 	cout << "================================================" << endl;
-	cout << "Upcoming: Version a7 (last pre-release)\n" << endl;
+	cout << "Version a7 (last pre-release)\n" << endl;
 	cout << "- Remade the menus designs" << endl;
 	cout << "- Console command for launching apps" << endl;
-	cout << "- Working on Updater" << endl;
-	cout << "- A new game" << endl;
+	cout << "- Updater finished and working" << endl;
 	cout << "================================================" << endl;
 	cout << "Press 'M' to return to the main menu!" << endl;
 	cout << "================================================" << endl;
@@ -165,7 +168,6 @@ void settings()
 		break;
 	case 1:
 		::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
-		//ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
 		settings();
 		break;
 	default:

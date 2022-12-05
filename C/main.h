@@ -9,6 +9,6 @@ void mainMenu();
 void commandLine();
 void appsMenu();
 int advancedCalculatorMain();
-int calculatorMain();
 int blackJackmain();
-int UpdaterMain();
+void UpdaterMain();
+void startupUpdate();

@@ -132,7 +132,7 @@
     <ClCompile Include="blackjackGame.cpp" />
     <ClCompile Include="commandLineModule.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="UpdateModule.cpp" />
+    <ClCompile Include="UpdaterModule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />

@@ -16,6 +16,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Modules\UpdateModule">
+      <UniqueIdentifier>{968da247-c3cb-49b8-91a1-cb2741ae0337}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,14 +30,14 @@
     <ClCompile Include="commandLineModule.cpp">
       <Filter>Modules</Filter>
     </ClCompile>
-    <ClCompile Include="UpdateModule.cpp">
-      <Filter>Modules</Filter>
-    </ClCompile>
     <ClCompile Include="blackjackGame.cpp">
       <Filter>App Files</Filter>
     </ClCompile>
     <ClCompile Include="advancedCalculatorApp.cpp">
       <Filter>App Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdaterModule.cpp">
+      <Filter>Modules\UpdateModule</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
